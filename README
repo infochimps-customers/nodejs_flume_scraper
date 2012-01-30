@@ -1,0 +1,12 @@
+Resources
+
+1) NodeJS docs -- http://nodejs.org/docs/latest/api/
+2) Node flume-rpc library -- https://github.com/recoset/node-flume-rpc
+
+Instructions
+
+1) Build node from source.
+2) npm install http://github.com/recoset/node-thrift/tarball/v0.7.0-recoset
+3) npm install flume-rpc
+4) node scrape.js
+5) echo 'http://www.google.com' | flume sink 'rpcSink("localhost")'
